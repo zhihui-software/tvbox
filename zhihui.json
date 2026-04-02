@@ -1,0 +1,48 @@
+{
+  "spider": "https://raw.githubusercontent.com/zhihui-software/tvbox/main/spider.jar",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "notice": "智汇软件工作室出品",
+  "sites": [
+    {
+      "key": "玩偶",
+      "name": "🎬智汇影视",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "立播",
+      "name": "🌟立播",
+      "type": 3,
+      "api": "csp_LibvioGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "厂长",
+      "name": "📔厂长",
+      "type": 3,
+      "api": "csp_NewCzGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }
+  ],
+  "lives": [
+    {
+      "name": "📺央视直播",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/CN.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+    },
+    {
+      "name": "📡卫视直播",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/WS.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+    }
+  ]
+}
